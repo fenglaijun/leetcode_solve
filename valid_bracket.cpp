@@ -65,7 +65,11 @@ bool isValid(char* s) {
 
 int main(void)
 {
+	char tmp_s[] = "{{{()()()()}}}{}{()}";
+	printf("tmp_s result = %d\n",isValid(tmp_s));
 	
-	
+	Solution solu;
+	string str_tmp = tmp_s;
+	cout <<"str_tmp = " << solu.isValid(str_tmp) <<endl;
 	
 }
